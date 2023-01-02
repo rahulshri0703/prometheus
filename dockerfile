@@ -9,4 +9,4 @@ RUN pip install -r requirements.txt
 COPY ./src/ /app/
 
 ENV FLASK_APP=server.py
-CMD flask run -h 0.0.0 -p 5000
+CMD flask run -h 0.0.0.0 -p 5000
