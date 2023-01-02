@@ -3,7 +3,7 @@ services:
 
   python-application:
     build:
-      context: ./python-application
+      context: .
     container_name: python-application
     image: python-application
     ports:
